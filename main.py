@@ -436,7 +436,7 @@ async def send_logs(client: Client, m: Message):  # Correct parameter name
     except Exception as e:
         await m.reply_text(f"Error sending logs: {e}")
 
-@bot.on_message(filters.command(["drm"]) )
+@bot.on_message(filters.command(["asp"]) )
 async def txt_handler(bot: Client, m: Message):  
     #if m.chat.id not in AUTH_USERS and m.chat.id not in CHANNELS_LIST:
         #print(f"User ID not in AUTH_USERS", m.chat.id)
