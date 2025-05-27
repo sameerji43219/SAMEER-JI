@@ -396,7 +396,7 @@ async def txt_handler(client: Client, m: Message):
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
         f"➥ /start – Bot Status Check\n"
-        f"➥ /Asp – Extract from .txt (Auto)\n"
+        f"➥ /guruji – Extract from .txt (Auto)\n"
         f"➥ /y2t – YouTube → .txt Converter\n"  
         f"➥ /t2t – Text → .txt Generator\n" 
         f"➥ /stop – Cancel Running Task\n"
@@ -436,7 +436,7 @@ async def send_logs(client: Client, m: Message):  # Correct parameter name
     except Exception as e:
         await m.reply_text(f"Error sending logs: {e}")
 
-@bot.on_message(filters.command(["asp"]) )
+@bot.on_message(filters.command(["guruji"]) )
 async def txt_handler(bot: Client, m: Message):  
     #if m.chat.id not in AUTH_USERS and m.chat.id not in CHANNELS_LIST:
         #print(f"User ID not in AUTH_USERS", m.chat.id)
