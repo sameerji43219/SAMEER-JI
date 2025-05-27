@@ -74,9 +74,9 @@ BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact"
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/BABA_tillu_Gk") ],
+            InlineKeyboardButton(text="📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧", url="https://t.me/BABA_tillu_Gk") ],
             [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/PAPPUPELUBABA") ],
+            InlineKeyboardButton(text="🛠️ 𝗛𝗘𝗟𝗣", url="https://t.me/PAPPUPELUBABA") ],
             [
             InlineKeyboardButton(text="🇮🇳 𝗬𝗼𝘂𝗧𝘂𝗯𝗲", url="https://youtube.com/@asponlineeducation?si=qdG97vJYpJQQYkrh") ],
             [
@@ -93,6 +93,10 @@ keyboard = InlineKeyboardMarkup(
 image_urls = [
     "https://files.catbox.moe/iykmoi.jpg",
     "https://files.catbox.moe/44y82a.jpg",
+    "https://files.catbox.moe/endhpl.jpg",
+    "https://files.catbox.moe/ufb7m7.jpg",
+    "https://files.catbox.moe/zjg9u7.jpg",
+    "https://files.catbox.moe/6nn4d3.jpg",
     # Add more image URLs as needed
 ]
 
