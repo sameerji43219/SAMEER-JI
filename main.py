@@ -845,8 +845,8 @@ async def txt_handler(bot: Client, m: Message):
         await m.reply_text(e)
         time.sleep(2)
 
-    await m.reply_text(f"⋅ ─ Total failed links is {failed_count} ─ ⋅")
-    await m.reply_text(f"⋅ ─ list index ({raw_text}-{len(links)}) out of range ─ ⋅\n\n✨ **BATCH** » {b_name}✨\n\n⋅ ─ DOWNLOADING ✩ COMPLETED ─ ⋅")
+    await m.reply_text(f"⋅ ─ 𝗧𝗼𝘁𝗮𝗹 𝗳𝗮𝗶𝗹𝗲𝗱 𝗹𝗶𝗻𝗸𝘀 𝗶𝘀 {failed_count} ─ ⋅")
+    await m.reply_text(f"⋅ ─ list index ({raw_text}-{len(links)}) out of range ─ ⋅\n\n✨ **𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** »\n\n════ ⋆★⋆ ════**\n\n {b_name}\n\n**════ ⋆★⋆ ════✨\n\n⋅ ─ 🗣 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 ✩ 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 𝗚𝗨𝗥𝗨 𝗝𝗜 ─ ⋅")
 
 @bot.on_message(filters.text & filters.private)
 async def text_handler(bot: Client, m: Message):
