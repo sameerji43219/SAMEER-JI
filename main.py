@@ -84,7 +84,7 @@ keyboard = InlineKeyboardMarkup(
             [
             InlineKeyboardButton(text="🦟 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺", url="https://t.me/ALEXANDER_OFFICIAL_091") ],
             [
-            InlineKeyboardButton(text="🕷 𝗚𝗜𝗧 𝗛𝗨𝗕", url="https://t.me/PAPPUPELUBABA") ],
+            InlineKeyboardButton(text="🕷 𝗚𝗜𝗧 𝗛𝗨𝗕", url="https://t.me/PAPPUPELUBABA"),
         ],
     ]
 )
