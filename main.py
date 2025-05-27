@@ -76,7 +76,10 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="📞 Contact", url="https://t.me/BABA_tillu_Gk"),
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/PAPPUPELUBABA"),
-            InlineKeyboardButton(text="❒ 𝗚𝗜𝗧 𝗛𝗨𝗕", url="https://t.me/PAPPUPELUBABA")
+            InlineKeyboardButton(text="🇮🇳 𝗬𝗼𝘂𝗧𝘂𝗯𝗲", url="https://youtube.com/@asponlineeducation?si=qdG97vJYpJQQYkrh"),
+            InlineKeyboardButton(text="🦂 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺", url="https://www.instagram.com/as_love_091/?hl=en"),
+            InlineKeyboardButton(text="🦟 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺", url="https://t.me/ALEXANDER_OFFICIAL_091"),
+            InlineKeyboardButton(text="🕷 𝗚𝗜𝗧 𝗛𝗨𝗕", url="https://t.me/PAPPUPELUBABA"),
         ],
     ]
 )
