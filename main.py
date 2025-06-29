@@ -91,12 +91,12 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://files.catbox.moe/iykmoi.jpg",
-    "https://files.catbox.moe/44y82a.jpg",
-    "https://files.catbox.moe/endhpl.jpg",
-    "https://files.catbox.moe/ufb7m7.jpg",
-    "https://files.catbox.moe/zjg9u7.jpg",
-    "https://files.catbox.moe/6nn4d3.jpg",
+    "https://files.catbox.moe/4utqks.jpg",
+    "https://files.catbox.moe/5igdsp.jpg",
+    "https://files.catbox.moe/5liqv9.jpg",
+    "https://files.catbox.moe/2upfx1.jpg",
+    "https://files.catbox.moe/v53hr5.jpg",
+    "https://files.catbox.moe/lvkqj8.jpg",
     # Add more image URLs as needed
 ]
 
